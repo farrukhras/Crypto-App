@@ -1,38 +1,116 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+* {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #1a1a1c;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.align-table-items {
+  margin: 1vh 0 1vw 0
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search-coin-container {
+  margin-bottom: 70px;
+}
+
+.title-coin {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.search-coin {
+  width: 25%;
+  border-radius: 15px;
+  height: 40px;
+  background-color: white;
+  color: black;
+  border: none;
+}
+
+.search-coin::placeholder {
+  color: black
+}
+
+.single-coin-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.coin-info {
+  width: 80%;
+  display: inline-block;
+  text-align: left;
+}
+
+.coin-img-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.slider {
+  line-height: 50px;
+  white-space: nowrap;
+  overflow: hidden;
+  box-sizing: border-box;
+  font-size: medium;
+  background-color: white;
+  width: 100%;
+}
+.slider div {
+  display: inline-block;
+  padding-left: 100%;
+  animation: marquee 17s linear infinite;
+  background-color: white;
+}
+.trending {
+  font-size: 20px;
+  font-weight: bold;
+  color: #05C3DD;
+}
+.slider div span {
+  padding-left: 15px;
+  background-color: white;
+}
+.slider-market-raw {
+  margin-right: 5px; 
+  color:black;
+  padding-right: 50px;
+  background-color: white;
+}
+.slider-name{
+  color:#05C3DD; 
+  font-weight: bold;
+  background-color: white;
+}
+.slider-price {
+  background-color: white;
+  color: green;
+}
+
+@keyframes marquee {
+  0%   { transform: translate(0, 0); }
+  100% { transform: translate(-100%, 0); }
+}
+
+.header {
+  background-color:#05C3DD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header a {
+  margin: 10px 0 5px 0;
+  background-color:#05C3DD;
+}
+
+.header-title {
+  color: white; 
+  font-weight: bold;
+  background-color: #05C3DD;
+}
+
+.table-row:hover {
+  cursor: pointer;
+  transform: scale(1.05);
 }
