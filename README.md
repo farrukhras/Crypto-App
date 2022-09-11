@@ -2,9 +2,9 @@
 
 A Crypto currency price tracker app using React, [CoinGecko](https://www.coingecko.com) API, [Chart.js](https://www.chartjs.org/), React Hook and Axios.
 
-You will be able to search for different crypto coins, fetch the different data realted to the coins, display them in the browser. The coin prices will be updated whenever you refresh the page.
+You will be able to search for different crypto coins, fetch the different data related to the coins, display them in the browser. The coin prices will be updated whenever you refresh the page.
 
-The app also includes a custom slider that displays the trending coins for the day. It provides a search bar to search for coins from the fetched list. Moreover, for each coin, its details, including the desctiption and price fluctuation chart is also displayed.
+The app also includes a custom slider that displays the trending coins for the day. It provides a search bar to search for coins from the fetched list. Moreover, for each coin, its details, including the description and price fluctuation chart is also displayed.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
