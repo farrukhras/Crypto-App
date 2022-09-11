@@ -1,4 +1,4 @@
-# Crypto App
+# Crypto Price Tracker
 
 A Crypto currency price tracker app using React, [CoinGecko](https://www.coingecko.com) API, [Chart.js](https://www.chartjs.org/), React Hook and Axios.
 
